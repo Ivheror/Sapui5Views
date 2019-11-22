@@ -1,0 +1,11 @@
+[SAPUI5]
+
+Pequeña demo hecha en SAPUI5 a modo de ejemplo.
+Las aplicaciones SAPUI5 son aplicaciones de lado cliente que ofrecen una interfaz SAP a través de la que consumir o nutrir de datos a SAP.
+
+Desarrollar una aplicación SAPUI5 significa por tanto, diseñar una interfaz y definir de dónde se va a obtener los datos que va a tratar esta interfaz. Para ello, se utiliza el paradigma MODELO-VISTA-CONTROLADOR del que derivarán 3 tipos de componentes a tener muy en cuenta:
+
+Vistas: Ficheros en los que se diseñará la estructura y formato de la aplicación SAPUI5 en cuestión: layouts, controles, tablas, etc. Pueden desarrollarse en los siguientes formatos: Javascript, XML, HTML o JSON.
+Controlador: Ficheros Javascript en los que se definirá la lógica de negocio de la interfaz, se atenderá a eventos, se realizarán validaciones y se crearán modelos con los que establecer la relación entre la aplicación y el backend de donde procedan los datos a tratar.
+Modelo: Serán las fuentes de datos de los que se nutrirá la aplicación, podrán ser SAP o no SAP y podrán estar basados en diferentes formatos como JSON, XML u oData.
+

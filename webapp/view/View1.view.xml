@@ -1,0 +1,60 @@
+<mvc:View controllerName="Hello_World.Hello_World.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<VBox>
+							<HBox>
+								<Text text="{i18n>appTitle}"></Text>
+							</HBox>	
+						</VBox>
+						<Table id="tablePrueba" items="{path:'/'}">
+							<columns>
+								<Column id="column">
+									<Label text="ID Customer" id="label0" />
+								</Column>
+								<Column id="column1">
+									<Label text="Company Name" id="label1" />
+								</Column>
+								<Column id="column2">
+									<Label text="Contact Name"/>
+								</Column>
+								<Column id="column3">
+									<Label text="Contact Title"/>
+								</Column>
+								<Column id="column4">
+									<Label text="Address"/>
+								</Column>
+								<Column id="column5">
+									<Label text="Postal Code"/>
+								</Column>
+								<Column id="column6">
+									<Label text="Country"/>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem press="selectCustomers"  type="Navigation" id="valor">
+									<Text text="{CustomerID}"></Text>
+									<Text text="{CompanyName}"></Text>
+									<Text text="{ContactName}"></Text>
+									<Text text="{ContactTitle}"></Text>
+									<Text text="{Address}"></Text>
+									<Text text="{PostalCode}"></Text>
+									<Text text="{Country}"></Text>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
+
+
+
+
+
+
+

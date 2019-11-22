@@ -1,0 +1,30 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="Hello_World.Hello_World.controller.View2"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:form="sap.ui.layout.form" >
+	<App>
+		<pages>
+			<Page title="Detalles" showHeader="true">
+				<Button type="Back" press="patras" tooltip="test"/>
+				<form:SimpleForm id="formPruebas" title="Formulario">
+					
+					<Label text="Id de Cliente"/>
+						<Text text="{/CustomerID}"/>
+					<Label text="Nombre de empresa"/>
+						<Text text="{/CompanyName}"/>
+					<Label text="Cargo" />
+						<Text text="{/ContactTitle}"/>
+					<Label text="Direccion"/>
+						<Text text="{/Address}"/>	
+					<Label text="Ciudad"/>
+						<Text text="{/City}"/>
+					<Label text="Codigo Postal"/>
+						<Text text="{/PostalCode}"/>
+					<Label text="Pais" />
+						<Text text="{/Country}"/>
+						
+					<Button type="Accept" press="patras" text="Confirmar" width="100%" ></Button>
+					<Button type="Default" press="patras" text="Editar" width="80%" ></Button>
+				</form:SimpleForm>
+    		</Page>
+		</pages>
+	</App>
+</mvc:View>
